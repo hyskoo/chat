@@ -17,4 +17,10 @@
 		WHERE m_id = #{mId} AND m_pw = #{mPw}
 	</select>
 	
+	<select id="randomList">
+		SELECT *
+		FROM member
+		ORDER BY DBMS_RANDOM.RANDOM()
+	</select>
+	
 </mapper>
