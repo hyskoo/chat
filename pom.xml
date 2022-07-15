@@ -156,7 +156,7 @@
 		<dependency>
 			<groupId>com.fasterxml.jackson.core</groupId>
 			<artifactId>jackson-databind</artifactId>
-			<version>2.9.8</version>
+			<version>2.12.6.1</version>
 		</dependency>
 		<!-- ajax사용시 406에러 해결용 jackson -->
 		<dependency>
